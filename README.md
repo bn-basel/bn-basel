@@ -1,8 +1,15 @@
-<a href="https://baselbn.vercel.app"><img src="assets/header.svg" width="100%" alt="Basel. AI products for Saudi businesses. Founder of Mudeef, Computing and Software Systems (AI) at the University of Melbourne, SDAIA AI Scholar."></a>
+<a href="https://baselbn.vercel.app"><img src="assets/header.svg" width="100%" alt="Basel. AI products for Saudi businesses. Founder of Mudeef, Computing and Software Systems (AI) at the University of Melbourne, SDAIA AI Scholar. Open to internships and freelance AI work."></a>
 
-I build AI products for Saudi businesses. I founded **Mudeef**, and I study Computing and Software Systems, specialising in AI, at the University of Melbourne on an SDAIA AI scholarship. I also train open Arabic models like ALLaM on one home GPU, and I measure every result.
+I build AI products for Saudi businesses, and I post about AI and tech in Arabic for 6K+ followers. I founded **Mudeef**, and I study Computing and Software Systems, specialising in AI, at the University of Melbourne on an SDAIA AI scholarship.
 
-<p dir="rtl">أبني منتجات ذكاء اصطناعي للشركات السعودية. مؤسس مضيف، وأدرس علوم حاسب وأنظمة برمجيات بتخصص ذكاء اصطناعي في جامعة ملبورن.</p>
+**Open to internships and freelance AI work.**
+
+<p dir="rtl">أبني منتجات ذكاء اصطناعي للشركات السعودية، وأشارك رحلتي في الذكاء الاصطناعي والتقنية بالعربي على تيك توك وإنستغرام.</p>
+
+### I post about AI and tech, in Arabic
+
+<a href="https://www.tiktok.com/@basel.bn0"><img src="assets/card-tiktok.svg" width="49%" alt="TikTok @basel.bn0, 3K+ followers: short videos on AI and tech, in Arabic."></a>
+<a href="https://www.instagram.com/basel.bn0/"><img src="assets/card-instagram.svg" width="49%" alt="Instagram @basel.bn0, 3.2K+ followers: my journey, what I'm learning, and AI tools worth knowing, in Arabic."></a>
 
 ### Now
 
@@ -18,17 +25,3 @@ I build AI products for Saudi businesses. I founded **Mudeef**, and I study Comp
 <a href="https://github.com/bn-basel/system1-chess-laya"><img src="assets/card-chess-laya.svg" width="49%" alt="system1-chess-laya: a 421M one-step model taught chess. Puzzles solved 4.7% to 37%, 1121 Elo, about 15 ms a move."></a>
 <a href="https://github.com/bn-basel/claude-code-orchestrator"><img src="assets/card-agent-team.svg" width="49%" alt="Claude Agent Team: one Claude Code session plans, delegates to helpers and opens one pull request per feature, leaving 4 decisions to me."></a>
 <a href="https://github.com/bn-basel/gemma-mini"><img src="assets/card-gemma-mini.svg" width="49%" alt="gemma-mini, in progress: an offline Saudi-dialect assistant on Gemma 4 small models. Research done, nothing measured yet."></a>
-
-### How I work
-
-- I write the test before training, check it by hand, and freeze it. Change it later and the score stops meaning anything.
-- I measure every step against the original model, so a gain in one place can't hide a loss in another.
-- Anything an AI can't undo, like confirming a booking, it prepares and a person approves.
-
-### Find me
-
-<code>Python</code> · <code>PyTorch</code> · <code>QLoRA</code> · <code>FastAPI</code> · <code>PostgreSQL</code> · <code>Next.js</code> · <code>Claude Code</code>
-
-[baselbn.vercel.app](https://baselbn.vercel.app) · [basel.prog@gmail.com](mailto:basel.prog@gmail.com) · [Hugging Face](https://huggingface.co/bnbasel) · [TikTok](https://www.tiktok.com/@basel.bn0) · [Instagram](https://www.instagram.com/basel.bn0/)
-
-<sub>I post about AI and tech in Arabic on TikTok and Instagram (6K+ followers). Open to internships and freelance AI work; I reply within two days, in Arabic or English.</sub>

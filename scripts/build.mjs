@@ -243,6 +243,42 @@ for (const c of CARDS) fs.writeFileSync(out(c.file), card(c));
   fs.writeFileSync(out('card-mudeef.svg'), svg);
 }
 
+// ---------- content cards: Arabic AI and tech posts (follower counts from the portfolio's content/social.json) ----------
+const SOCIAL = [
+  { file: 'card-tiktok.svg', tag: 'TIKTOK', col: '#fe2c55', glow: '#fe2c55', glow2: '#25f4ee', followers: '3K+',
+    lines: ['Short videos on AI and tech, in Arabic: what', 'I build and the tools worth knowing.'], seed: 31 },
+  { file: 'card-instagram.svg', tag: 'INSTAGRAM', col: '#e1306c', glow: '#d6249f', glow2: '#f77737', followers: '3.2K+',
+    lines: ["My journey, what I'm learning, and the AI", 'tools worth knowing. All in Arabic.'], seed: 32 },
+];
+for (const s of SOCIAL) {
+  const W = 600, H = 300;
+  const AR = "'IBM Plex Sans Arabic','Segoe UI',Tahoma,sans-serif";
+  const svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${W} ${H}" width="${W}" height="${H}" role="img" aria-label="${s.tag}: @basel.bn0, ${s.followers} followers. ${esc(s.lines.join(' '))}">
+<title>@basel.bn0 on ${s.tag}</title>
+<style>.tw{animation:tw 3.6s ease-in-out infinite}.tw2{animation-duration:4.4s}.tw3{animation-duration:2.9s}.tw4{animation-duration:5.3s}@keyframes tw{0%,100%{opacity:1}50%{opacity:.15}}.dot{animation:dot 2.4s ease-in-out infinite}@keyframes dot{0%,100%{opacity:1}50%{opacity:.35}}@media (prefers-reduced-motion:reduce){*{animation:none!important}}</style>
+<defs><clipPath id="c"><rect width="${W}" height="${H}" rx="18"/></clipPath>
+<radialGradient id="g" cx="1" cy="0" r="0.75"><stop offset="0" stop-color="${s.glow}" stop-opacity=".26"/><stop offset="1" stop-color="#000" stop-opacity="0"/></radialGradient>
+<radialGradient id="g2" cx="0" cy="1" r="0.6"><stop offset="0" stop-color="${s.glow2}" stop-opacity=".10"/><stop offset="1" stop-color="#000" stop-opacity="0"/></radialGradient></defs>
+<g clip-path="url(#c)">
+  <rect width="${W}" height="${H}" fill="#0a0a0b"/>
+  <rect width="${W}" height="${H}" fill="url(#g)"/>
+  <rect width="${W}" height="${H}" fill="url(#g2)"/>
+  ${stars({ w: W, h: H, n: 46, seed: s.seed, avoid: [[20, 20, 470, 175], [20, 190, 580, 290]], minA: 0.1, size: 12 })}
+  <circle class="dot" cx="42" cy="45" r="4.5" fill="${s.col}"/>
+  <text x="56" y="50" font-family="${MONO}" font-size="13" fill="#a3a3a3" letter-spacing="1.5">${s.tag} · AI &amp; TECH</text>
+  <text x="${W - 36}" y="50" text-anchor="end" font-family="${AR}" font-size="17" font-weight="600" fill="#a3a3a3">بالعربي</text>
+  <text x="36" y="104" font-family="${SANS}" font-size="34" font-weight="700" fill="#fafafa" letter-spacing="-.5">@basel.bn0</text>
+  <text font-family="${SANS}" font-size="17.5" fill="#a3a3a3">${s.lines.map((l, i) => `<tspan x="36" y="${140 + i * 25}">${esc(l)}</tspan>`).join('')}</text>
+  <line x1="36" y1="196" x2="${W - 36}" y2="196" stroke="#232326" stroke-dasharray="3 5"/>
+  <text x="36" y="252" font-family="${SANS}" font-size="44" font-weight="700" fill="#fafafa" letter-spacing="-1">${s.followers}</text>
+  <text x="36" y="278" font-family="${MONO}" font-size="16" fill="#808080">followers</text>
+  <text x="${W - 36}" y="${H - 22}" text-anchor="end" font-family="${MONO}" font-size="14" fill="#8f8f8f">follow →</text>
+</g>
+<rect x=".5" y=".5" width="${W - 1}" height="${H - 1}" rx="17.5" fill="none" stroke="#202124"/>
+</svg>`;
+  fs.writeFileSync(out(s.file), svg);
+}
+
 // The avatar is the same pixel portrait used on Instagram and TikTok: assets/avatar.png, copied as is from the
 // portfolio (public/uploads/basel-pixel-v4.png). Nothing to build.
 
