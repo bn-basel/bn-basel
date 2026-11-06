@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 340" width="600" height="340" role="img" aria-label="Saudi receptionist: Gemma and ALLaM trained to answer in Saudi dialect and use booking tools, on one GPU. 93.8% Gemma, level with DeepSeek; 40 → 87.5% ALLaM, before → after">
+<title>Saudi receptionist</title>
+<style>.tw{animation:tw 3.6s ease-in-out infinite}.tw2{animation-duration:4.4s}.tw3{animation-duration:2.9s}.tw4{animation-duration:5.3s}@keyframes tw{0%,100%{opacity:1}50%{opacity:.15}}@media (prefers-reduced-motion:reduce){*{animation:none!important}}</style>
+<defs><clipPath id="c"><rect width="600" height="340" rx="18"/></clipPath>
+<radialGradient id="g" cx="1" cy="0" r="0.7"><stop offset="0" stop-color="#2a3350" stop-opacity=".28"/><stop offset="1" stop-color="#000" stop-opacity="0"/></radialGradient></defs>
+<g clip-path="url(#c)">
+  <rect width="600" height="340" fill="#0a0a0b"/>
+  <rect width="600" height="340" fill="url(#g)"/>
+  <g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="12" text-anchor="middle"><text x="92" y="5" fill="#fff" fill-opacity="0.33">+</text><text x="442" y="10" fill="#fff" fill-opacity="0.52">*</text><text x="598" y="82" fill="#fff" fill-opacity="0.14">.</text><text x="102" y="206" fill="#fff" fill-opacity="0.27">+</text><text x="103" y="5" fill="#fff" fill-opacity="0.25" class="tw tw1" style="animation-delay:-3.5s">.</text><text x="512" y="24" fill="#fff" fill-opacity="0.36">+</text><text x="454" y="1" fill="#fff" fill-opacity="0.10">.</text><text x="112" y="15" fill="#fff" fill-opacity="0.23">.</text><text x="580" y="81" fill="#fff" fill-opacity="0.21">.</text><text x="581" y="36" fill="#fff" fill-opacity="0.20" class="tw tw4" style="animation-delay:-1.3s">.</text><text x="150" y="14" fill="#ff7ab6" fill-opacity="0.76">*</text><text x="82" y="199" fill="#fff" fill-opacity="0.10">.</text><text x="578" y="65" fill="#fff" fill-opacity="0.12">.</text></g>
+  <text x="36" y="50" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="13" fill="#7a7a7a" letter-spacing="1.5">FINE-TUNING · 2026</text>
+  <g transform="translate(564 45)"><circle cx="-46" cy="0" r="4.5" fill="#22c55e"/><text x="0" y="5" text-anchor="end" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="13" fill="#a3a3a3">live</text></g>
+  <text x="36" y="102" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="32" font-weight="700" fill="#fafafa" letter-spacing="-.5">Saudi receptionist</text>
+  <text font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="17.5" fill="#a3a3a3"><tspan x="36" y="138">Gemma and ALLaM trained to answer in Saudi</tspan><tspan x="36" y="163">dialect and use booking tools, on one GPU.</tspan></text>
+  <line x1="36" y1="204" x2="564" y2="204" stroke="#232326" stroke-dasharray="3 5"/>
+  
+    <text x="36" y="262" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="40" font-weight="700" fill="#fafafa" letter-spacing="-1">93.8%</text>
+    <text x="36" y="290" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="16" fill="#808080">Gemma, level with DeepSeek</text>
+    <text x="316" y="262" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="40" font-weight="700" fill="#fafafa" letter-spacing="-1">40 → 87.5%</text>
+    <text x="316" y="290" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="16" fill="#808080">ALLaM, before → after</text>
+  <text x="36" y="318" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="14" fill="#5f6066">PyTorch · QLoRA · Gemma · ALLaM</text>
+  <text x="564" y="318" text-anchor="end" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="14" fill="#8f8f8f">repo →</text>
+</g>
+<rect x=".5" y=".5" width="599" height="339" rx="17.5" fill="none" stroke="#202124"/>
+</svg>
